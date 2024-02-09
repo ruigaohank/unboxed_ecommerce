@@ -6,14 +6,16 @@ The company has data on more than 100,000 customer transactions across several d
 * **Sales trends** - Focusing on key metrics of sales revenue, number of orders placed, and average order value (AOV).
 * **Loyalty program optimization** - Evaluating the effectiveness of the company's loyalty program and providing recommendations to maximize customer engagement and retention.
 * **Product performance** - Analyzing different product lines, market impact, and refund rates to inform strategic product decisions.
-* **Operational effectiveness** - Evaluating logistics and operational efficiency to identify <X>.
-* **Marketing channel performance** - Analyzing campaign performance across channels to identify most effective ones to achieve <X>.
+* **Operational effectiveness** - Evaluating logistics and operational efficiency to identify [...].
+* **Marketing channel performance** - Analyzing campaign performance across channels to identify most effective ones to achieve [...].
 
 ---
 ## Data Structure, Processing, and Cleaning
-The entity relationship diagram (ERD) of Unboxed's data is shown below:
-![unboxed_erd](https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/88252500-7751-4f10-b122-8066d0016340)
 
+<p align="center" width="100%">
+  <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/88252500-7751-4f10-b122-8066d0016340" width="700">
+  Entity relationship diagram (ERD) of Unboxed's data.
+</p>
 
 ---
 ## Insights

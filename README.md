@@ -12,10 +12,12 @@ The company has data on more than 100,000 customer transactions across several d
 ---
 ## Data Structure, Processing, and Cleaning
 
-<p align="center" width="100%">
-  <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/88252500-7751-4f10-b122-8066d0016340" width="700">
-  Entity relationship diagram (ERD) of Unboxed's data.
-</p>
+<div align="center">
+
+  <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/94406a15-ba71-4109-b0f8-b97fd7876acb" width="60%">
+  
+  <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
+</div>
 
 ---
 ## Insights

@@ -1,4 +1,4 @@
-# Boosting Sales and Efficiency for Unboxed: Data-Driven Insights and Recommendations
+# Boosting Sales and Efficiency for E-Commerce: Data-Driven Insights and Recommendations
 Established in 2018, Unboxed is an e-commerce company that sells popular consumer electronics and accessories. While the company is based in the US, it has a global customer base. As the company has grown and expanded, it has faced fierce competition and challenges brought on by the COVID-19 pandemic. 
 
 Unboxed has data on more than 100,000 customer transactions across several dimensions and measures, including sales, products, marketing efforts, operational efficiency, and its loyalty program. To help the company's Head of Operations understand the company's performance over the last several years (2019 - 2022), a thorough and comprehensive analysis was conducted on this data. The analysis uncovered insights that can be leveraged by teams across the company, including finance, sales, product, and marketing, to improve processes and enhance Unboxed's commercial performance. Specifically, the insights and recommendations are focused on the following key areas:

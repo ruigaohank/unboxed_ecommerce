@@ -1,13 +1,13 @@
 # Boosting Sales and Efficiency for E-Commerce: Data-Driven Insights and Recommendations
-Established in 2018, Unboxed is an e-commerce company that sells popular consumer electronics and accessories. While the company is based in the US, it has a global customer base. As the company has grown and expanded in the last few years, it has faced increasingly fierce competition, as well as unique challenges and opportunities brought on by the COVID-19 pandemic. 
+Established in 2018, Unboxed is a US-based e-commerce company that sells popular consumer electronics and accessories to a global clientele. As the company has grown and expanded in the last few years, it has encountered increasingly fierce competition as well as unique challenges and opportunities brought on by the COVID-19 pandemic. 
 
-Unboxed has data on more than 100,000 customer transactions across several dimensions and measures, including sales, products, marketing efforts, operations, and its loyalty program. To help the company's Head of Operations understand the company's performance over the last several years (2019 - 2022), a thorough and comprehensive analysis was conducted on this data. The analysis uncovered insights that can be leveraged by teams across the company, including finance, sales, product, and marketing, to improve processes and enhance Unboxed's commercial performance. Specifically, the insights and recommendations center on the following key areas:
+Unboxed has data on more than 100,000 customer transactions across several dimensions and metrics, including sales, products, marketing efforts, operations, and its loyalty program. To help the company's Head of Operations understand the company's performance over the last several years (2019 - 2022), a thorough and comprehensive analysis was conducted on the company's data. The analysis uncovered insights that can be leveraged by different teams across the company, including finance, sales, product, and marketing, to improve processes and boost Unboxed's commercial performance. Specifically, the insights and recommendations center on the following key areas:
 
 * **Sales trends** - Focusing on key metrics of sales revenue, number of orders placed, and average order value (AOV).
-* **Loyalty program optimization** - Evaluating the effectiveness of the company's loyalty program and providing recommendations to maximize customer engagement and retention.
+* **Loyalty program evaluation** - Evaluating the effectiveness of the company's loyalty program and providing recommendations to maximize customer engagement and retention.
 * **Product performance** - Analyzing different product lines, market impact, and refund rates to inform strategic product decisions.
-* **Operational effectiveness** - Evaluating logistics and operational efficiency to identify [...].
-* **Marketing channel performance** - Analyzing campaign performance across channels to identify most effective ones to achieve [...].
+* **Operational effectiveness** - Evaluating logistics and operational efficiency to identify areas for improvement.
+* **Marketing channel performance** - Analyzing campaign performance across channels to identify most effective ones to increase brand awareness and acquire new customers.
 
 ---
 ## Data Structure, Processing, and Cleaning
@@ -19,11 +19,39 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </div>
 
+The dataset contains a total of 108,127 records stored in 4 tables, as shown in the ERD above. 
+
+Before analysis, a series of data processing and cleaning steps were undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting issues. For convenience, these steps were carried out in Excel and are documented [here]().
+
 ---
 ## Insights
 
+### Sales trends
+
+#### Growth rates
+* _Overall performance_: From 2019 to 2022, customers placed over 108K orders for a total revenue of $28M, with an average order value (AOV) of $260. The company's biggest market is North America, which accounts for 51% of the total revenue, followed by Europe, the Middle East, and Africa (30%), the Asia-Pacific region (12%), and Latin America (6%).
+
+* _Pandemic-driven growth_: The company saw explosive growth in 2020 across all markets, potentially related to increased spending during the COVID-19 pandemic: AOV and order count rose by 31% and 101% respectively, driving the highest revenue on record ($10M, a 163% increase from the previous year). A closer look at the month-over-month growth rates in 2020 reveals that order count and revenue both rose by approximately 50% in March of that year, a month where the company does not historically see such high growth. This timing coincides with the start of pandemic-related lockdowns, further suggesting that the company's impressive growth in 2020 was driven by consumers who had an increased appetite for consumer electronics amidst lockdown restrictions.
+
+* _Post-pandemic sales slump_: In 2022, the company experienced a post-pandemic slump in sales across all markets. Revenues fell by 46% from the previous year, driven by a significant decrease in the number of orders placed. 
+
+#### Seasonality
+* Unboxed's sales trends exhibit seasonality, with a consistent upward tick in order count in August, September, November, and December. Since these months coincide with the start of the school year and holidays like Christmas, this could potentially explain the seasonality trend that we see.  
+
+### Loyalty program
+* Overall, across all four years, non-loyalty program customers surpassed loyalty program customers in all three key sales metrics (AOV, order count, and revenue). In 2019 and 2020, loyalty customers placed fewer orders than non-loyalty customers, and their orders were less expensive than non-loyalty customers. 
+
+* However, in 2021 and 2022, not only did loyalty customers place more orders than non-loyalty customers, but they also spent $30 more on average per order than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the total revenue earned and 52% of the total orders placed that year.
+
+* The performance of the loyalty program is especially strong in North America, the only region where loyalty customers surpassed non-loyalty customers in across all key metrics (AOV, order count, and revenue) in 2022.
+
+### Product performance
+* Overall, 4 out of the company's 8 product offerings account for **96%** of total revenue. Two of these products (Apple Airpods Headphones and the 27in 4K Gaming Monitor) drive 67% of all sales and 63% of total revenue. The Apple Airpods Headphones are the company's best-selling product, accounting for 45% of all sales for a total revenue of $7.7M. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for $9.9M in total revenue. 
+
+* Higher-ticket items (laptops and phones) have the highest refund rates, potentially because customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
 ---
 ## Recommendations
+* We would recommend continuing with the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years. 
 
 ---
 ## Showcase

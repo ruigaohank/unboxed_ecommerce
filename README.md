@@ -24,31 +24,31 @@ The dataset contains a total of 108,127 records stored in 4 tables, as shown bel
 A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting. These steps were carried out in Excel and are documented [here]().
 
 ---
-## Insights
+## Summary of Insights
 
 ### Sales trends
 
 #### Growth rates
-* _Overall performance_: From 2019 to 2022, customers placed over 108K orders for a total revenue of $28M, with an average order value (AOV) of $260. The company's biggest market is North America, which accounts for 51% of the total revenue, followed by Europe, the Middle East, and Africa (30%), the Asia-Pacific region (12%), and Latin America (6%).
+* _Overall performance_: From 2019 to 2022, over 108K orders were placed for a total revenue of $28M, with an average order value (AOV) of $260. North America, which accounts for 51% of Unboxed's total revenue, is its biggest market, followed by Europe, the Middle East, and Africa (30%), the Asia-Pacific region (12%), and Latin America (6%).
 
-* _Pandemic-driven growth_: The company saw explosive growth in 2020 across all markets, potentially related to increased spending during the COVID-19 pandemic: AOV and order count rose by 31% and 101% respectively, driving the highest revenue on record ($10M, a 163% increase from the previous year). A closer look at the month-over-month growth rates in 2020 reveals that order count and revenue both rose by approximately 50% in March of that year, a month where the company does not historically see such high growth. This timing coincides with the start of pandemic-related lockdowns, further suggesting that the company's impressive growth in 2020 was driven by consumers who had an increased appetite for consumer electronics amidst lockdown restrictions.
+* _Pandemic-driven growth_: The company saw explosive growth in 2020 across all markets, likely related to increased spending during the COVID-19 pandemic: AOV and order count rose by 31% and 101% respectively, driving the highest yearly revenue on record ($10M, a 163% increase from the previous year). A closer look at the month-over-month growth rates in 2020 reveals that order count and revenue both rose by approximately 50% in March, the highest growth rate on record. This timing coincides with the start of pandemic-related lockdowns, suggesting that the company's impressive growth in 2020 was driven by consumers with an increased appetite for consumer electronics amidst lockdown restrictions.
 
-* _Post-pandemic sales slump_: In 2022, the company experienced a post-pandemic slump in sales across all markets. Revenues fell by 46% from the previous year, driven by a significant decrease in the number of orders placed. 
+* _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, 2022 saw a slump in sales across all markets. Revenues fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year). 
 
 #### Seasonality
-* Unboxed's sales trends exhibit seasonality, with a consistent upward tick in order count in August, September, November, and December. Since these months coincide with the start of the school year and holidays like Christmas, this could potentially explain the seasonality trend that we see.  
+* Unboxed's sales trends exhibit seasonality, with a consistent upward tick in sales in August, September, November, and December. These months coincide with the start of the school year and shopping-heavy holidays like Christmas, suggesting a potential reason for this seasonality. 
 
 ### Loyalty program
-* Overall, across all four years, non-loyalty program customers surpassed loyalty program customers in all three key sales metrics (AOV, order count, and revenue). In 2019 and 2020, loyalty customers placed fewer orders than non-loyalty customers, and their orders were less expensive than non-loyalty customers. 
+* Overall, across all four years, non-loyalty program customers surpassed loyalty program customers in all three key sales metrics (AOV, order count, and revenue). In 2019 and 2020, loyalty customers placed fewer orders than non-loyalty customers, and their orders were less expensive than those of non-loyalty customers. 
 
-* However, in 2021 and 2022, not only did loyalty customers place more orders than non-loyalty customers, but they also spent $30 more on average per order than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the total revenue earned and 52% of the total orders placed that year.
+* However, in 2021 and 2022, not only did loyalty customers place more orders than non-loyalty customers, but they also spent $30 more on average per order than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the yearly total revenue and 52% of the total orders placed.
 
 * The performance of the loyalty program is especially strong in North America, the only region where loyalty customers surpassed non-loyalty customers in across all key metrics (AOV, order count, and revenue) in 2022.
 
 ### Product performance
 * Overall, 4 out of the company's 8 product offerings account for **96%** of total revenue. Two of these products (Apple Airpods Headphones and the 27in 4K Gaming Monitor) drive 67% of all sales and 63% of total revenue. The Apple Airpods Headphones are the company's best-selling product, accounting for 45% of all sales for a total revenue of $7.7M. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for $9.9M in total revenue. 
 
-* Higher-ticket items (laptops and phones) have the highest refund rates, potentially because customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
+* Higher-ticket items (laptops and phones) have the highest refund rates, potentially due to the fact that customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
 ---
 ## Recommendations
 * We would recommend continuing with the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years. 

@@ -43,12 +43,12 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 * However, in 2021 and 2022, not only did loyalty customers place more orders than non-loyalty customers, but they also spent $30 more on average per order than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the yearly total revenue and 52% of the total orders placed.
 
-* The performance of the loyalty program is especially strong in North America, the only region where loyalty customers surpassed non-loyalty customers in across all key metrics (AOV, order count, and revenue) in 2022.
+* The performance of the loyalty program was especially strong in North America, the only region where loyalty customers surpassed non-loyalty customers in across all key metrics (AOV, order count, and revenue) in 2022.
 
 ### Product performance
-* Overall, 4 out of the company's 8 product offerings account for **96%** of the total revenue earned across all years. Two of these products (Apple Airpods Headphones and the 27in 4K Gaming Monitor) drive 67% of all sales and 63% of total revenue. The Apple Airpods Headphones are the company's best-selling product, accounting for 45% of all sales for a total revenue of $7.7M. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for $9.9M in total revenue. 
+* Overall, 4 out of the company's 8 product offerings accounted for **96%** of the total revenue earned across all years. Two of these products (Apple Airpods Headphones and the 27in 4K Gaming Monitor) drove 67% of all sales. The Apple Airpods Headphones are the company's best-selling product, accounting for 45% of all sales for a total revenue of $7.7M. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for $9.9M in total revenue. 
 
-* Higher-ticket items (laptops and phones) have the highest refund rates, potentially due to the fact that customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
+* Higher-ticket items (laptops and phones) had the highest refund rates, potentially due to the fact that customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
 ---
 ## Recommendations
 * We would recommend continuing with the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years. 

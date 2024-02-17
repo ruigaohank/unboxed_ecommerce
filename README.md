@@ -12,6 +12,8 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
 ---
 ## Data Structure, Processing, and Cleaning
 
+The dataset contains a total of 108,127 records stored in 4 tables, as shown below. 
+
 <div align="center">
 
   <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/94406a15-ba71-4109-b0f8-b97fd7876acb" width="60%">
@@ -19,9 +21,7 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </div>
 
-The dataset contains a total of 108,127 records stored in 4 tables, as shown in the ERD above. 
-
-Before analysis, a series of data processing and cleaning steps were undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting issues. For convenience, these steps were carried out in Excel and are documented [here]().
+A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting. These steps were carried out in Excel and are documented [here]().
 
 ---
 ## Insights

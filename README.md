@@ -33,7 +33,7 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 * _Pandemic-driven growth_: The company saw explosive growth in 2020 across all markets, likely related to increased spending during the COVID-19 pandemic: AOV and order count rose by 31% and 101% respectively, driving the highest yearly revenue on record ($10M, a 163% increase from the previous year). A closer look at the month-over-month growth rates in 2020 reveals that order count and revenue both rose by approximately 50% in March, the highest growth rate on record. This timing coincides with the start of pandemic-related lockdowns, suggesting that the company's impressive growth in 2020 was driven by consumers with an increased appetite for consumer electronics amidst lockdown restrictions.
 
-* _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, 2022 saw a slump in sales across all markets. Revenues fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year). 
+* _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, 2022 saw a slump in sales across all markets. Revenue fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year). 
 
 #### Seasonality
 * Unboxed's sales trends exhibit seasonality, with a consistent upward tick in sales in August, September, November, and December. These months coincide with the start of the school year and shopping-heavy holidays like Christmas, suggesting a potential reason for this seasonality. 

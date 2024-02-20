@@ -15,7 +15,7 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
 The dataset contains a total of 108,127 records stored in 4 tables, as shown below. 
 
 <p align="center" width="100%">
-  <img width="60%" src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/94406a15-ba71-4109-b0f8-b97fd7876acb"><br>
+  <img width="60%" src="screenshots/unboxed_erd_3.png"><br>
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </p>
 
@@ -34,12 +34,12 @@ A series of data processing and cleaning steps were first undertaken to understa
 * _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, 2022 saw a slump in sales across all markets. Revenue fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year).
 
 <p align="center" width="100%">
-    <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/748699e5-3bfa-4b0b-b150-685640f74aa3" width="70%"><br>
+    <img src="screenshots/overall_and_regional_sales.png" width="70%"><br>
     <sub>View of Unboxed's key sales metrics, broken down by year and region (for revenue).</sub>
 </p>
 
 <p align="center" width="100%">
-    <img src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/f3c5bdbd-4e24-4be7-9ce2-75ca915bf26b" width="60%"><br>
+    <img src="screenshots/march_2020_jump_long.png" width="60%"><br>
     <sub>Sales jumped in March 2020.</sub>
 </p>
 
@@ -54,18 +54,24 @@ A series of data processing and cleaning steps were first undertaken to understa
 * _Effectiveness across regions_: The performance of the loyalty program was especially strong in North America, the only region where loyalty customers surpassed non-loyalty customers in all key metrics (AOV, order count, and revenue) in 2022.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/02f8312c-5157-46e0-9c26-2da98c937a35"><br>
+    <img width="80%" src="screenshots/loyalty_program.png"><br>
     <sub>The loyalty program has become more effective with time.</sub>
 </p>
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/ruiruigao/unboxed_ecommerce/assets/67876553/2bb0a62e-11b8-46ed-a994-c321040f0a44"><br>
+    <img width="45%" src="screenshots/loyalty_NA.png"><br>
     <sub>Loyalty customers surpassed non-loyalty customers across all key sales metrics in North America in 2022.</sub>
 </p>
 
 ### Product performance
 * Overall, 4 out of the company's 8 product offerings accounted for **96%** of the total revenue earned across all years. Two of these products (Apple Airpods Headphones and the 27in 4K Gaming Monitor) drove 67% of all sales. The Apple Airpods Headphones are the company's best-selling product, accounting for 45% of all sales for a total revenue of $7.7M. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for $9.9M in total revenue. 
 
-* Higher-ticket items (laptops and phones) had the highest refund rates, potentially due to the fact that customers are more likely to seek out a refund when they are unsatisfied with an expensive product. 
+* Higher-ticket items (Macbook Air Laptop, ThinkPad Laptop, Apple iPhone) had the highest refund rates, potentially because customers may be more likely to seek out a refund when they are unsatisfied with an expensive product.
+
+<p align="center" width="100%">
+    <img width="70%" src="screenshots/product_performance.png"><br>
+    <sub>View of Unboxed's product mix.</sub>
+</p>
+
 ---
 ## Recommendations
 * We would recommend continuing with the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years. 
@@ -73,6 +79,6 @@ A series of data processing and cleaning steps were first undertaken to understa
 ---
 ## Showcase
 
-The image below showcases some visualizations generated as part of the analysis. 
+The image below showcases some visualizations from the Tableau dashboard. 
 
-Click here for the full dashboard.
+Click here to view the full dashboard.

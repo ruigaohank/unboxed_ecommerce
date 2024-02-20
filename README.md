@@ -40,7 +40,7 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 <p align="center" width="100%">
     <img src="screenshots/march_2020_jump_long.png" width="60%"><br>
-    <sub>Sales jumped in March 2020.</sub>
+    <sub>Jump in order count and revenue in March 2020.</sub>
 </p>
 
 #### Seasonality
@@ -55,7 +55,7 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 <p align="center" width="100%">
     <img width="80%" src="screenshots/loyalty_program.png"><br>
-    <sub>The loyalty program has become more effective with time.</sub>
+    <sub>Increase in loyalty program effectiveness in recent years.</sub>
 </p>
 <p align="center" width="100%">
     <img width="45%" src="screenshots/loyalty_NA.png"><br>
@@ -71,6 +71,7 @@ A series of data processing and cleaning steps were first undertaken to understa
     <img width="70%" src="screenshots/product_performance.png"><br>
     <sub>View of Unboxed's product mix.</sub>
 </p>
+
 
 ---
 ## Recommendations

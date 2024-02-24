@@ -15,11 +15,11 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
 The dataset contains a total of 108,127 records stored in 4 tables, as shown below. 
 
 <p align="center" width="100%">
-  <img width="70%" src="screenshots/unboxed_erd_3.png"><br>
+  <img width="60%" src="screenshots/unboxed_erd_3.png"><br>
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </p>
 
-A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting. These steps were carried out in Excel and are documented [here]().
+A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting. These steps were carried out in Excel and are documented [in the workbook](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_raw.xlsx).
 
 ---
 ## Summary of Insights
@@ -69,40 +69,40 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 * _Overall product performance_: Overall, 4 out of the company's 8 product offerings (27in 4K Gaming Monitor, Apple Airpods Headphones, Macbook Air Laptop, ThinkPad Laptop) accounted for **96% of the total revenue** earned across all years. The Apple Airpods Headphones are the company's best-selling product, accounting for **45% of all sales for a total revenue of $7.7M**. Revenue-wise, the 27in 4K Gaming Monitor is the most profitable product, accounting for **$9.9M in total revenue**. 
 
-* _Positive relationship between AOV and refund rate_: Higher-ticket items (Macbook Air Laptop, ThinkPad Laptop, Apple iPhone) also had the highest refund rates (ranging from 7.6% - 11.7%), potentially because customers may be more likely to seek out a refund when they are unsatisfied with an expensive product.
+* _Positive relationship between product value and refund rate_: Higher-ticket items (Macbook Air Laptop, ThinkPad Laptop, Apple iPhone) also had the highest refund rates (ranging from 7.6% - 11.7%), potentially because customers may be more likely to seek out a refund when they are unsatisfied with an expensive product.
 
 * _Brand dominance_: Apple was the best-selling brand in every region, driving 40% - 51% of the company's sales in each region (highest: EMEA at 51%; lowest: LATAM at 40%). 
 
 ### Operational efficiency
 
-* _Overall efficiency across regions_: In general, Unboxed's delivery times lag behind the average delivery speed of 2-4 days offered by its competitors. Orders from customers in EMEA and APAC took an average of 7.6 days to be delivered, compared to 7.5 days and 7.4 days for NA and LATAM customers, respectively. The discrepancy between delivery times across regions appears to be mainly due to differences in order shipping times -- orders from EMEA and APAC had longer delays before shipment, compared to orders from NA and LATAM. 
+* _Overall efficiency across regions_: In general, Unboxed's delivery times lag behind the average delivery speed of 2-4 days offered by its competitors. Orders from customers in EMEA and APAC took an average of 7.6 days to be delivered, compared to 7.5 days and 7.4 days for NA and LATAM customers, respectively. The discrepancy between delivery times across regions appears to be mainly due to differences in order shipping times -- orders from EMEA and APAC experienced longer shipment delays compared to orders from NA and LATAM. 
 
-* On average, delivery times were the same for non-loyalty program customers and loyalty program customers. There may be an opportunity to incentivize loyalty program signup by reducing the delivery times for loyalty program customers.
+* _Equal delivery times for non-loyalty and loyalty customers_: On average, delivery times were the same for non-loyalty program customers and loyalty program customers. There may be an opportunity to incentivize loyalty program signup by reducing the delivery times for loyalty program customers.
 
-* Quarter-to-quarter, there were more frequent fluctuations in average shipping times (ranging from 1.7 to 3.2 days), while transit time remained generally consistent (ranging from 5.4 to 5.6 days). Because time in transit accounts for the bulk of the overall delivery time, meaningful reductions in transit time would greatly improve operational efficiency.
+* _Transit accounts for most of overall delivery time_: Quarter-to-quarter, average shipping times ranged more widely (from 1.7 to 3.2 days) and had more frequent fluctuations compared to average transit times, which remained generally consistent (ranging from 5.4 to 5.6 days). Because transit time accounts for the bulk of the overall delivery time, meaningful reductions in transit time would greatly improve overall operational efficiency.
 
 ### Marketing channel performance
 
 * _Overall performance across regions_: The top two most effective marketing channels for each region were 1) direct marketing and 2) email campaigns, both by number of purchases as well as revenue generated. In North America, the company's biggest market, direct marketing drove **over 31K orders for a total of $8.8M in revenue**. Email marketing was a far second, driving **$1.4M in revenue**. Social media was the least effective channel in all regions, driving **only $150K** in the company's largest market. 
 
-* For orders placed on mobile, social media and affiliate marketing were most effective at driving more expensive purchases, with an AOV of $87 and $71, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were affiliate and direct marketing at AOVs of $329 and $307, respectively.
+* _Mobile vs. website purchases_: For orders placed on mobile, social media and affiliate marketing were most effective at driving more expensive purchases, with an AOV of $87 and $71, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were affiliate and direct marketing at AOVs of $329 and $307, respectively.
 
 * The biggest share of loyalty program customers came through the direct marketing channel (ADD PERCENT). However, email marketing had the highest average loyalty program signup rate across all years, with almost 50% of email-marketed customers enrolling in the loyalty program. 
 
 ---
 ## Recommendations
 
-The following recommendations are based on the insights above and relate to different teams: 
+The following recommendations are based on the above insights and relate to different teams: 
 
-* **Marketing team:** We recommend continuing with the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years. We also recommend investigating reasons for why email marketing is particularly effective at driving loyalty program signup and using these findings to further optimize future email marketing campaigns to encourage continued signups. Based on our findings, direct marketing is by far the most effective method at driving number of sales and total revenue, and therefore should be allocated the most budget and resources. 
+**Marketing team:**
+* Continue the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years.
+* Investigate reasons for why email marketing is particularly effective at driving loyalty program signup and use these findings to further optimize future email marketing campaigns.
+* When deciding which marketing channel to prioritize, allocate the most budget and resources to direct marketing, as it is by far the most effective method at driving number of sales and total revenue. 
 
-* **Operations team:** We recommend investigating ways to increase shipping times for EMEA and APAC customer orders, as well as considering how to reduce overall delivery time to boost customer retention, especially if competitors are offering shorter delivery times. There may also be an opportunity for crossfunctional collaboration between the marketing and operations teams to engage and retain loyalty program customers by offering shorter delivery times to this segment of customers. 
+* **Operations team:**
+* Investigate ways to increase shipping times for EMEA and APAC customer orders, and reduce overall delivery times for all regions, especially if competitors are offering shorter delivery times.
+* Collaborate with marketing and analytics teams to identify loyalty program customers and offer shorter delivery times to this segment of clients to boost engagement and retention of loyalty customers.
 
-* **Product/inventory management:** We would recommend further in-depth analysis to understand why the 4 top-performing products are successful and consider expanding offerings based on these anchor products, such as accessories that can be paired with these products to enhance their performance or useability. Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce stockouts and maximize sales opportunities. 
-
----
-## Showcase
-
-The image below showcases some visualizations from the Tableau dashboard. 
-
-Click here to view the full dashboard.
+* **Product/Inventory management:**
+* Work with analytics team to conduct further analysis to understand why the 4 top-performing products are successful and consider expanding offerings based on these anchor products, such as performance- or useability-enhancing accessories.
+* Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce stockouts and maximize sales opportunities. 

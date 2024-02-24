@@ -59,6 +59,7 @@ ORDER BY 4 DESC;
 -- Products with the highest AOVs, such as Macbook Air Laptop, ThinkPad Laptop, Apple iPhone, had the highest refund rates.
 -- Though the 27in 4K Gaming Monitor and the Apple Airpods Headphones are the company's best-performing products, they had lower refund rates. 
 
+
   -- Q3. What was the most-purchased brand in each region?
 
   /* This query uses a CTE to pull data from the `orders` table joined to the `customers` and `geo_lookup` tables. CASE is used to assign each product to a brand, and the 
@@ -113,6 +114,7 @@ GROUP BY 1
 ORDER BY 4 DESC;
 -- Insight: NA and LATAM had slightly shorter delivery times compared to APAC and EMEA, though the differences were not substantial between regions. 
 
+
   -- Q2. Does the average delivery time differ between loyalty program customers and non-loyalty customers?
 
   /* This query is similar to the one above, but analyzes shipping, transit, and delivery times for loyalty program customers compared
@@ -130,6 +132,7 @@ LEFT JOIN core.order_status
 WHERE customers.loyalty_program IS NOT NULL
 GROUP BY 1;
 -- Insight: Loyalty and non-loyalty program customers had the same average shipping, transit, and delivery times (7.5 days).
+
 
   -- Q3. What were the quarterly trends in average delivery time?
   
@@ -160,6 +163,7 @@ ORDER BY 1 ASC;
 -- Between Q1 and Q2 of 2019, there was on average a 60% increase in order shipping time, and overall delivery time increased by ~18%.
 -- Operational efficiency improved between Q2 and Q3 of the same year, due mainly to a decrease in order shipping time. 
 -- Logistics remained consistent throughout 2020, with a small reduction in shipping time in Q4 2020. However, this gain was reversed in Q1 2021.
+
 
   -- MARKETING CHANNEL PERFORMANCE 
 
@@ -197,6 +201,7 @@ ORDER BY 1, 2;
 -- Insights:
 -- The top two most effective marketing channels across all regions by both order count and revenue were 1) direct and 2) email. 
 -- Social media was the least effective marketing channel across all regions.
+
 
   -- Q2. Within each purchase platform, what are the top two marketing channels ranked by average order value?
   

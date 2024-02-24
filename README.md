@@ -79,7 +79,7 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 * _Equal delivery times for non-loyalty and loyalty customers_: On average, delivery times were the same for non-loyalty program customers and loyalty program customers. There may be an opportunity to incentivize loyalty program signup by reducing the delivery times for loyalty program customers.
 
-* _Transit accounts for most of overall delivery time_: Quarter-to-quarter, average shipping times ranged more widely (from 1.7 to 3.2 days) and had more frequent fluctuations compared to average transit times, which remained generally consistent (ranging from 5.4 to 5.6 days). Because transit time accounts for the bulk of the overall delivery time, meaningful reductions in transit time would greatly improve overall operational efficiency.
+* _Transit accounts for majority of overall delivery time_: Quarter-to-quarter, average shipping times ranged more widely (from 1.7 to 3.2 days) and had more frequent fluctuations compared to average transit times, which remained generally consistent (ranging from 5.4 to 5.6 days). Because transit time accounts for the bulk of the overall delivery time, meaningful reductions in transit time would greatly improve overall operational efficiency.
 
 ### Marketing channel performance
 

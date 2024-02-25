@@ -75,7 +75,7 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 ### Operational efficiency
 
-* _Overall efficiency across regions_: In general, Unboxed's delivery times lag behind the average delivery speed of 2-4 days offered by its competitors. Orders from customers in EMEA and APAC took an average of 7.6 days to be delivered, compared to 7.5 days and 7.4 days for NA and LATAM customers, respectively. The discrepancy between delivery times across regions appears to be mainly due to differences in order shipping times -- orders from EMEA and APAC experienced longer shipment delays compared to orders from NA and LATAM. 
+* _Overall efficiency across regions_: In general, Unboxed's delivery times lag behind the average delivery speed of 2-4 days offered by its competitors. There were no major differences in delivery times between regions. Orders from customers in EMEA and APAC took an average of 7.6 days to be delivered, compared to 7.5 days and 7.4 days for NA and LATAM customers, respectively.
 
 * _Equal delivery times for non-loyalty and loyalty customers_: On average, delivery times were the same for non-loyalty program customers and loyalty program customers. There may be an opportunity to incentivize loyalty program signup by reducing the delivery times for loyalty program customers.
 
@@ -83,11 +83,11 @@ A series of data processing and cleaning steps were first undertaken to understa
 
 ### Marketing channel performance
 
-* _Overall performance across regions_: The top two most effective marketing channels for each region were 1) direct marketing and 2) email campaigns, both by number of purchases as well as revenue generated. In North America, the company's biggest market, direct marketing drove **over 31K orders for a total of $8.8M in revenue**. Email marketing was a far second, driving **$1.4M in revenue**. Social media was the least effective channel in all regions, driving **only $150K** in the company's largest market. 
+* _Overall performance across regions_: The top two most effective marketing channels for every region were 1) direct marketing and 2) email campaigns, both by number of purchases as well as revenue generated. In North America, the company's biggest market, direct marketing drove **over 31K orders for a total of $8.8M in revenue**. Email marketing was a far second, driving **$1.4M in revenue**. Social media was the least effective channel in all regions, driving **only $150K** in the company's largest market. 
 
-* _Mobile vs. website purchases_: For orders placed on mobile, social media and affiliate marketing were most effective at driving more expensive purchases, with an AOV of $87 and $71, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were affiliate and direct marketing at AOVs of $329 and $307, respectively.
+* _Mobile vs. website purchases_: For orders placed on **mobile, social media and affiliate marketing were most effective** at driving more expensive purchases, with **an AOV of $87 and $71**, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were **affiliate and direct marketing at AOVs of $329 and $307**, respectively.
 
-* The biggest share of loyalty program customers came through the direct marketing channel (ADD PERCENT). However, email marketing had the highest average loyalty program signup rate across all years, with almost 50% of email-marketed customers enrolling in the loyalty program. 
+* _Email marketing drives loyalty signups_: 73% of all loyalty program customers came through the direct marketing channel. However, email marketing had the highest average loyalty program signup rate across all years, with **almost 50% of email-marketed customers enrolling in the loyalty program**. 
 
 ---
 ## Recommendations

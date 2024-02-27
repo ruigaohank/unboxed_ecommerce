@@ -64,7 +64,7 @@ ORDER BY 4 DESC;
 
 /* This query uses a CTE to pull data from the `orders` table joined to the `customers` and `geo_lookup` tables. 
 CASE is used to assign each product to a brand, and the data is grouped by region and brand to get an order count for each region-brand pair using COUNT(). 
-The final query converts the order counts to a percentage based on the total order count across all brands in that region, and brand is ranked within each region based on order count. 
+The final query converts the order counts to a percentage based on the total order count across all brands in that region, and brands are ranked within each region based on order count. 
 The QUALIFY clause is used to return the top-ranked brands in each region. */
 
 WITH region_brand_count AS (
@@ -95,7 +95,7 @@ QUALIFY ranking = 1;
 -- Q1. What was the average time to deliver for each region? What was the average time spent in processing before an order was shipped?
 
 /* Data is pulled from the `orders` table joined to the `order_status`, `customers`, and `geo_lookup` tables. 
-DATE_DIFF is used on the relevant columns to calculate the days spent in different stage of delivery, and an average for each stage is calculated for each region using AVG. 
+DATE_DIFF() is used on the relevant columns to calculate the days spent in different stage of delivery, and an average time for each delivery stage is calculated for each region with AVG(). 
 The final output is ordered by the longest overall delivery time. */
 
 SELECT geo_lookup.region,
@@ -116,8 +116,8 @@ ORDER BY 4 DESC;
 
 -- Q2. Does the average delivery time differ between loyalty program customers and non-loyalty customers?
 
-/* This query is similar to the one above, but groups by loyalty status (0 = non-loyalty, 1 = loyalty). 
-Because customers are not grouped by region, the `geo_lookup` table was not necessary in the join. */
+/* This query is similar to the one above, but groups by loyalty status (0 = non-loyalty, 1 = loyalty) instead of region. 
+Because customer region was not needed, the `geo_lookup` table was not necessary in the join. */
 
 SELECT customers.loyalty_program,
   ROUND(AVG(DATE_DIFF(order_status.ship_ts, order_status.purchase_ts, day)), 1) AS avg_days_to_ship,
@@ -130,13 +130,13 @@ LEFT JOIN core.order_status
   ON orders.id = order_status.order_id
 WHERE customers.loyalty_program IS NOT NULL
 GROUP BY 1;
--- Insight: Loyalty and non-loyalty program customers had the same average shipping, transit, and delivery times (7.5 days).
+-- Insight: Loyalty and non-loyalty program customers experience the same average shipping, transit, and overall delivery times (7.5 days).
 
 
 -- Q3. What were the quarterly trends in average delivery time?
 
 /* This query pulls in data by joining `orders` and `order_status` tables. 
-A CTE is used to compute the average time in days for shipping, transit, and overall time to delivery for each quarter (using DATE_TRUNC).
+A CTE is used to compute the average time in days for shipping, transit, and overall time to delivery for each quarter (using DATE_TRUNC()).
 The final query calculates a quarter-over-quarter percent difference in  shipping, transit, and overall delivery times using the LAG() window function. */
 
 WITH quarterly_trends AS (
@@ -160,7 +160,7 @@ ORDER BY 1 ASC;
 -- Insights:
 -- Between Q1 and Q2 of 2019, there was on average a 60% increase in order shipping time, and overall delivery time increased by ~18%.
 -- Operational efficiency improved between Q2 and Q3 of the same year, due mainly to a decrease in order shipping time. 
--- Logistics remained consistent throughout 2020 in spite of the pandemic, with a small reduction in shipping time in Q4 2020. However, this gain was reversed in Q1 2021.
+-- Logistics remained consistent throughout 2020 in spite of the pandemic, with a small reduction in shipping time in Q4 2020. However, this gain in efficiency was reversed in Q1 2021.
 
 
   -- MARKETING CHANNEL PERFORMANCE 
@@ -168,10 +168,10 @@ ORDER BY 1 ASC;
 -- Q1. Which marketing channels contribute most to sales? Does this differ between regions?
 
 /* This query pulls in data by joining `orders`, `customers`, and `geo_lookup` tables.
-Rows that do not have a defined marketing channel are filtered out (e.g. missing values or 'unknowns').
-The CTE computes the total number of orders (COUNT) and total revenue (SUM) for each marketing channel and region pair.
-The final query also ranks the different channels in each region based on order count and revenue.
-The output is ordered by the channel-region pair so it is easy to see how a particular channel has performed across any of the selected metrics in each region. */
+Rows with missing values for marketing channel are filtered out.
+The CTE computes the total number of orders (COUNT()) and total revenue (SUM()) for each marketing channel and region pair.
+The final query ranks the different channels in each region based on order count and revenue.
+The output is ordered by the channel-region pair so it is easy to see how a particular channel has performed in each region across the selected metrics. */
 
 -- first check the different marketing channels to see if there are missing values
 SELECT DISTINCT marketing_channel
@@ -203,10 +203,10 @@ ORDER BY 1, 2;
 
 -- Q2. Within each purchase platform, what are the top two marketing channels ranked by average order value?
 
-/* This query joins the `orders` and `customers` tables and groups by the purchase_platform and marketing_channel. 
-For each platform-channel pair, the AOV is computed using AVG. 
+/* This query joins the `orders` and `customers` tables and groups by purchase_platform and marketing_channel. 
+For each platform-channel pair, the AOV is computed using AVG(). 
 Within each purchase platform, the marketing channels are ranked by their AOV using a RANK window function. 
-The QUALIFY() statement filters the rankings to return only the top two, and the final output is ordered alphabetically by the purchase_platform. */
+The QUALIFY statement filters the rankings to return only the top two channels, and the final output is ordered alphabetically by the purchase_platform. */
 
 SELECT orders.purchase_platform,
   customers.marketing_channel,
@@ -219,8 +219,8 @@ GROUP BY 1, 2
 QUALIFY ranking <= 2
 ORDER BY 1;
 -- Insights:
--- When customers purchased on mobile, social media and affiliate marketing drove the highest AOV. 
--- When customers purchased on the website, affiliate and direct marketing drove the highest AOV.
+-- For customers who purchased on mobile, social media and affiliate marketing drove the highest AOV. 
+-- For customers who purchased on the website, affiliate and direct marketing drove the highest AOV.
 
 
 -- Q3. Which marketing channel has the highest average signup rate for the loyalty program? How does this compare to the channel that has the highest number of loyalty program participants?
@@ -228,10 +228,10 @@ ORDER BY 1;
 /* This query analyzes loyalty program signup rate in each marketing channel over time to understand which marketing channel was most effective in driving customer loyalty, 
 and compares it to the channel with the highest total number of loyalty customers. 
 Only the known marketing channels (email, direct, affiliate, and social media) are considered.
-The CTE calculates the average loyalty program signup rate (AVG) and the number of customers enrolled in the loyalty program (SUM) in each year, giving a snapshot of yearly trends. 
+The CTE calculates the average loyalty program signup rate (AVG()) and the number of customers enrolled in the loyalty program (SUM()) in each year, giving a snapshot of yearly trends. 
 The second CTE summarizes the yearly trends for each channel by calculating averages of averages. 
-The final query calculates the percent of loyalty customers that came through each marketing channel out of the total number of loyalty signups. 
-The QUALIFY clause is used with RANK to return the channels that have the highest average yearly signup rate OR the highest number of loyalty program customers. */
+The final query calculates the percent of loyalty customers that came through each marketing channel, based on the total number of loyalty signups. 
+The QUALIFY clause is used with RANK() to return the channels that have the highest average yearly signup rate OR the highest number of loyalty program customers. */
 
 WITH yearly_loyalty_trends AS (
   SELECT marketing_channel,

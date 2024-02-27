@@ -101,7 +101,7 @@ The following recommendations are based on the above insights and relate to diff
 
 **Operations team:**
 * Investigate ways to increase shipping times for EMEA and APAC customer orders, and reduce overall delivery times for all regions, especially if competitors are offering shorter delivery times.
-* Collaborate with marketing and analytics teams to identify loyalty program customers and offer shorter delivery times to this segment of clients to boost engagement and retention of loyalty customers.
+* Collaborate with marketing and analytics teams to identify loyalty program customers and offer shorter delivery times to this segment of clients to boost customer engagement and retention.
 
 **Product/Inventory management:**
 * Work with analytics team to conduct further analysis to understand why the 4 top-performing products are successful and consider expanding offerings based on these anchor products, such as performance- or useability-enhancing accessories.

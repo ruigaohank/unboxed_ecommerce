@@ -105,4 +105,4 @@ The following recommendations are based on the above insights and relate to diff
 
 **Product/Inventory management:**
 * Work with analytics team to conduct further analysis to understand why the 4 top-performing products are successful and consider expanding offerings based on these anchor products, such as performance- or useability-enhancing accessories.
-* Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce stockouts and maximize sales opportunities. 
+* Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce out-of-stock events and maximize sales opportunities. 

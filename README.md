@@ -7,7 +7,7 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
 * **Loyalty program evaluation** - Evaluating the effectiveness of the company's loyalty program and providing recommendations to maximize customer engagement and retention.
 * **Product performance** - Analyzing different product lines, market impact, and refund rates to inform strategic product decisions.
 * **Operational effectiveness** - Evaluating logistics and operational efficiency to identify areas for improvement.
-* **Marketing channel performance** - Analyzing campaign performance across channels to identify most effective ones for acquiring new customers and driving revenue.
+* **Marketing channel performance** - Analyzing campaign performances across channels to identify most effective ones for acquiring new customers and driving revenue.
 
 ---
 ## Data Structure, Processing, and Cleaning

@@ -15,7 +15,7 @@ Unboxed has data on more than 100,000 customer transactions across several dimen
 The dataset contains a total of 108,127 records stored in 4 tables, as shown below. 
 
 <p align="center" width="100%">
-  <img width="60%" src="screenshots/unboxed_erd_3.png"><br>
+  <img width="65%" src="screenshots/unboxed_erd_3.png"><br>
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </p>
 

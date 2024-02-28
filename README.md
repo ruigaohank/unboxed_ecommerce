@@ -19,7 +19,7 @@ The dataset contains a total of 108,127 records stored in 4 tables, as shown bel
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </p>
 
-A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, including missing and nonsensical values in several columns, as well as inconsistent formatting. These steps were carried out in Excel and are documented [in the workbook](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_raw.xlsx).
+A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, such as inconsistent formatting and missing/nonsensical values in several columns. These steps were carried out in Excel and are documented [in the workbook](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_raw.xlsx).
 
 ---
 ## Summary of Insights

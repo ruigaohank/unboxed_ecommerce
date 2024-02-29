@@ -104,7 +104,7 @@ The following recommendations are based on the above insights and relate to diff
 * When deciding which marketing channel to prioritize, allocate the most budget and resources to direct marketing, as it is by far the most effective method at driving number of sales and total revenue. 
 
 **Operations team:**
-* Investigate ways to increase shipping times for EMEA and APAC customer orders, and reduce overall delivery times for all regions, especially if competitors are offering shorter delivery times.
+* Investigate ways to decrease shipping times for EMEA and APAC customer orders, and reduce overall delivery times for all regions, especially if competitors are offering shorter delivery times.
 * Collaborate with marketing and analytics teams to identify loyalty program customers and offer shorter delivery times to this segment of clients to boost customer engagement and retention.
 
 **Product/Inventory management team:**

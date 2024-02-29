@@ -19,7 +19,11 @@ The dataset contains a total of 108,127 records stored in 4 tables, as shown bel
   <sub>Entity relationship diagram (ERD) of Unboxed's data.</sub>
 </p>
 
-A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, such as inconsistent formatting and missing/nonsensical values in several columns. These steps were carried out in Excel and are documented [in the workbook](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_raw.xlsx).
+A series of data processing and cleaning steps were first undertaken to understand and address data quality issues, such as inconsistent formatting and missing/nonsensical values in several columns. These steps were carried out in Excel and are documented [in the workbook](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_data.xlsx) (a snapshot of the issue log can be found [here](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/screenshots/data_issue_log.png)).
+
+The analysis was carried out using a combination of Excel and SQL (Google BigQuery), with each tool used to investigate different aspects of the data. 
+* The Excel portion of the analysis can be found [here](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/unboxed_analysis.xlsx).
+* The queries for the SQL portion of the analysis can be found [here](https://github.com/ruiruigao/unboxed_ecommerce/blob/main/stakeholder_townhall_questions.sql).
 
 ---
 ## Summary of Insights

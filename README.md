@@ -58,7 +58,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 * _Strong performance in North America_: The loyalty program **performed especially well in North America**, the only region where loyalty customers surpassed non-loyalty customers in all key metrics (AOV, order count, and revenue) in 2022.
 
 <p align="center" width="100%">
-    <img width="80%" src="screenshots/loyalty_program.png"><br>
+    <img width="90%" src="screenshots/loyalty_program.png"><br>
     <sub>Increase in loyalty program effectiveness in recent years.</sub>
 </p>
 <p align="center" width="100%">

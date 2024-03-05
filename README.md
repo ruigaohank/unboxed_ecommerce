@@ -38,13 +38,13 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 * _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, **2022 saw a slump in sales across all markets**. Revenue fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year).
 
 <p align="center" width="100%">
-    <img src="screenshots/overall_and_regional_sales.png" width="90%"><br>
-    <sub>View of Unboxed's key sales metrics, broken down by year and region (for revenue).</sub>
+  <img width="80%" src="screenshots/overall_and_regional_sales.png"><br>
+  <sub>View of Unboxed's key sales metrics, broken down by year and region (for revenue).</sub>
 </p>
 
 <p align="center" width="100%">
-    <img src="screenshots/march_2020_jump_long.png"><br>
-    <sub>A snapshot of month-over-month growth rates shows an increase in order count and revenue in March 2020.</sub>
+  <img src="screenshots/march_2020_jump_long.png"><br>
+  <sub>A snapshot of month-over-month growth rates shows an increase in order count and revenue in March 2020.</sub>
 </p>
 
 #### Seasonality
@@ -55,15 +55,17 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 
 * _Reversal in trends_: However, in 2021 and 2022, not only did **loyalty customers place more orders than non-loyalty customers**, but they also spent on average **$30 more per order** than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the yearly total revenue and 52% of the total orders placed.
 
-* _Strong performance in North America_: The loyalty program **performed especially well in North America**, the only region where loyalty customers surpassed non-loyalty customers in all key metrics (AOV, order count, and revenue) in 2022.
+* _Strong performance in North America_: The loyalty program **performed especially well in North America**, the only region where loyalty customers surpassed non-loyalty customers in all key metrics (AOV, order count, and revenue) for most of 2022.
 
 <p align="center" width="100%">
-    <img width="90%" src="screenshots/loyalty_program.png"><br>
-    <sub>Increase in loyalty program effectiveness in recent years.</sub>
+  <img src="screenshots/loyalty_program.png"><br>
+  <sub>Increase in loyalty program effectiveness in recent years.</sub>
 </p>
 <p align="center" width="100%">
-    <img width="45%" src="screenshots/loyalty_NA.png"><br>
-    <sub>Loyalty customers surpassed non-loyalty customers across all key sales metrics in North America in 2022.</sub>
+  <img width="80%" src="screenshots/loyalty_aov.png"><br>
+  <img width="80%" src="screenshots/loyalty_order_count.png"><br>
+  <img width="80%" src="screenshots/loyalty_revenue.png"><br>
+  <sub>Loyalty customers surpassed non-loyalty customers across all key sales metrics in North America for most of 2022.</sub>
 </p>
 
 

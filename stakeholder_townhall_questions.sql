@@ -95,7 +95,7 @@ QUALIFY ranking = 1;
 -- Q1. What was the average time to deliver for each region? What was the average time spent in processing before an order was shipped?
 
 /* Data is pulled from the `orders` table joined to the `order_status`, `customers`, and `geo_lookup` tables. 
-DATE_DIFF() is used on the relevant columns to calculate the days spent in different stage of delivery, and an average time for each delivery stage is calculated for each region with AVG(). 
+DATE_DIFF() is used on the relevant columns to calculate the days spent in different stages of delivery, and an average time for each delivery stage is calculated for each region with AVG(). 
 The final output is ordered by the longest overall delivery time. */
 
 SELECT geo_lookup.region,

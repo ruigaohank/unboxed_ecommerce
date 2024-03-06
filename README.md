@@ -62,7 +62,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
   <sub>Increase in loyalty program effectiveness in recent years.</sub>
 </p>
 <p align="center" width="100%">
-  <img width="95%" src="screenshots/loyalty_aov.png"><br>
+  <img width="95%" src="screenshots/loyalty_aov_test.png"><br>
   <img width="95%" src="screenshots/loyalty_order_count.png"><br>
   <img width="95%" src="screenshots/loyalty_revenue.png"><br>
   <sub>Loyalty customers surpassed non-loyalty customers across all key sales metrics in North America for most of 2022.</sub>

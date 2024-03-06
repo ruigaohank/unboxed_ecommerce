@@ -38,7 +38,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 * _Post-pandemic sales slump_: While the company was able to maintain its pandemic sales boost into 2021, **2022 saw a slump in sales across all markets**. Revenue fell by 46% from the previous year, driven by a significant decrease in number of sales (down 40% from the previous year).
 
 <p align="center" width="100%">
-  <img width="80%" src="screenshots/overall_and_regional_sales.png"><br>
+  <img width="90%" src="screenshots/overall_and_regional_sales.png"><br>
   <sub>View of Unboxed's key sales metrics, broken down by year and region (for revenue).</sub>
 </p>
 

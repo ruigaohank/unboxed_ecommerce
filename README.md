@@ -89,7 +89,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 
 ### Marketing channel performance
 
-* _Overall performance across regions_: The top two most effective marketing channels for every region were 1) direct marketing and 2) email campaigns, both by number of purchases as well as revenue generated. In North America, the company's biggest market, direct marketing drove **over 31K orders for a total of $8.8M in revenue**. In every region, direct marketing drove **6-9X more revenue than email marketing**. Social media was the least effective channel in all regions, driving **only $150K** in the company's largest market. 
+* _Overall performance across regions_: The top two most effective marketing channels for every region were 1) direct marketing and 2) email campaigns, both by number of purchases as well as revenue generated. In North America, the company's biggest market, direct marketing drove **over 31K orders for a total of $8.8M in revenue**. In all regions, direct marketing drove **6-9X more revenue than email marketing**. Social media was the least effective channel in all regions, driving **only $150K** in the company's largest market. 
 
 * _Mobile vs. website purchase differences_: For orders placed on **mobile, social media and affiliate marketing were most effective** at driving more expensive purchases, with **an AOV of $87 and $71**, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were **affiliate and direct marketing at AOVs of $329 and $307**, respectively.
 

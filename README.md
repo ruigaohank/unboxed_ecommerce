@@ -53,7 +53,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 ### Loyalty program
 * _Non-loyalty customers drove sales in early years_: In 2019 and 2020, loyalty customers placed fewer orders than non-loyalty customers, and their orders were less expensive than those of non-loyalty customers. In these first two years of the loyalty program, non-loyalty customers drove the bulk of the total revenue.
 
-* _Reversal in trends_: However, in 2021 and 2022, not only did **loyalty customers place more orders than non-loyalty customers**, but they also spent on average **$30 more per order** than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the yearly total revenue and 52% of the total orders placed.
+* _Reversal in trends_: However, in 2021 and 2022, not only did **loyalty customers place more orders than non-loyalty customers**, but they also spent on average **$30 (14%) more per order** than non-loyalty customers. In 2022, purchases made by loyalty customers accounted for 55% of the yearly total revenue and 52% of the total orders placed.
 
 * _Strong performance in North America_: The loyalty program **performed especially well in North America**, the only region where loyalty customers surpassed non-loyalty customers in all key metrics (AOV, order count, and revenue) for most of 2022.
 

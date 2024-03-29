@@ -93,7 +93,7 @@ The analysis was carried out using a combination of Excel and SQL (Google BigQue
 
 * _Mobile vs. website purchase differences_: For orders placed on **mobile, social media and affiliate marketing were most effective** at driving more expensive purchases, with **an AOV of $87 and $71**, respectively. For orders placed on the website, the most effective channels for driving more expensive purchases were **affiliate and direct marketing at AOVs of $329 and $307**, respectively.
 
-* _Email marketing drives loyalty signups_: 73% of all loyalty program customers came through the direct marketing channel. However, email marketing had the highest average loyalty program signup rate across all years, with **almost 50% of email-marketed customers enrolling in the loyalty program**. 
+* _Email marketing drives loyalty signups_: 73% of all loyalty program customers came through the direct marketing channel. However, email marketing had the highest average yearly loyalty program signup rate, with **almost 50% of email-marketed customers enrolling in the loyalty program per year**, compared to 33% of direct-marketed customers. 
 
 ---
 ## Recommendations

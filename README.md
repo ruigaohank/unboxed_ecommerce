@@ -102,8 +102,8 @@ The following recommendations are based on the above insights and relate to diff
 
 **Marketing team:**
 * Continue the loyalty program, since this segment of customers has been placing more orders, as well as more expensive orders, than non-loyalty customers in recent years.
-* Investigate reasons for why email marketing is particularly effective at driving loyalty program signup and use these findings to further optimize future email marketing campaigns.
-* When deciding which marketing channel to prioritize, allocate the most budget and resources to direct marketing, as it is by far the most effective method at driving number of sales and total revenue. 
+* When deciding which marketing channel to prioritize, allocate the most budget and resources to direct marketing, as it is by far the most effective method at driving number of sales and total revenue.
+* Consider increasing resources to email marketing to boost its reach, given its effectiveness at driving loyalty program signups.
 
 **Operations team:**
 * Investigate ways to decrease shipping times for EMEA and APAC customer orders, and reduce overall delivery times for all regions, especially if competitors are offering shorter delivery times.

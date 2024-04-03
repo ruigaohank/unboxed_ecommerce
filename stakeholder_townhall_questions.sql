@@ -225,36 +225,25 @@ ORDER BY 1;
 
 -- Q3. Which marketing channel has the highest average signup rate for the loyalty program? How does this compare to the channel that has the highest number of loyalty program participants?
 
-/* This query analyzes loyalty program signup rate in each marketing channel over time to understand which marketing channel was most effective in driving customer loyalty, 
+/* This query analyzes loyalty program signup rate in each marketing channel over time to understand which marketing channel was most effective in driving loyalty signups, 
 and compares it to the channel with the highest total number of loyalty customers. 
 Only the known marketing channels (email, direct, affiliate, and social media) are considered.
-The CTE calculates the average loyalty program signup rate (AVG()) and the number of customers enrolled in the loyalty program (SUM()) in each year, giving a snapshot of yearly trends. 
-The second CTE summarizes the yearly trends for each channel by calculating averages of averages. 
-The final query calculates the percent of loyalty customers that came through each marketing channel, based on the total number of loyalty signups. 
-The QUALIFY clause is used with RANK() to return the channels that have the highest average yearly signup rate OR the highest number of loyalty program customers. */
+The CTE calculates the loyalty program signup rate and the number of loyalty signups for each channel across all years. 
+The final query calculates the number of loyalty signups as a percentage of total loyalty customers. */
 
-WITH yearly_loyalty_trends AS (
-  SELECT marketing_channel,
-    DATE_TRUNC(created_on, year) AS account_creation_year,
-    AVG(loyalty_program)*100 AS yearly_loyalty_rate,
-    SUM(loyalty_program) AS yearly_loyalty_customers
+WITH loyalty_stats AS (
+SELECT marketing_channel,
+    ROUND(AVG(loyalty_program)*100, 2) AS loyalty_rate,
+    SUM(loyalty_program) AS loyalty_customers,
   FROM core.customers
   WHERE marketing_channel IN ('email', 'direct', 'affiliate', 'social media') -- filter out missing values and unknown channel
-  GROUP BY 1, 2
-  ORDER BY 1, 2),
-
-  overall_performance AS (
-    SELECT marketing_channel,
-      AVG(yearly_loyalty_rate) AS avg_loyalty_rate,
-      SUM(yearly_loyalty_customers) AS total_loyalty_customers
-    FROM yearly_loyalty_trends
-    GROUP BY 1)
+  GROUP BY 1
+  ORDER BY 1, 2)
 
 SELECT *,
-  ROUND(total_loyalty_customers/SUM(total_loyalty_customers) OVER ()*100, 2) AS percent_loyalty
-FROM overall_performance
-QUALIFY RANK() OVER (ORDER BY avg_loyalty_rate DESC) = 1
-  OR RANK() OVER (ORDER BY total_loyalty_customers DESC) = 1;
+  ROUND(loyalty_customers / SUM(loyalty_customers) OVER ()*100, 2) AS pct_loyalty
+FROM loyalty_stats
+ORDER BY loyalty_rate DESC;
 -- Insights: 
--- On average, email marketing drove the highest loyalty program enrollment rates across all years.
--- Direct marketing had the highest number of loyalty program customers overall. 
+-- On average, email marketing drove the highest loyalty program enrollment rates across all years (59%).
+-- Direct marketing had the highest number of loyalty program customers overall (73% of all loyalty signups at 23K). 

@@ -111,4 +111,15 @@ The following recommendations are based on the above insights and relate to diff
 
 **Product/Inventory management team:**
 * Work with analytics team to conduct further analysis to understand why the 4 top-performing products are successful and consider expanding offerings based on these anchor products, such as performance- or useability-enhancing accessories.
-* Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce out-of-stock events and maximize sales opportunities. 
+* Given the company's reliance on these 4 core products, inventory levels should be optimized for these products to reduce out-of-stock events and maximize sales opportunities.
+
+---
+## Presentation Sample
+
+The presentation created for the company-wide townhall walks through some of the insights and recommendations above and can be found [here](https://github.com/ruiruigaoh/unboxed_ecommerce/tree/main/screenshots). Some samples are presented below for easy viewing.
+
+<p align="center" width="100%">
+  <img src="screenshots/pres_north_star_metrics.png"><br>
+  <img src="screenshots/pres_product_concentration.png"><br>
+  <img src="screenshots/pres_recommendations.png"><br>
+</p>

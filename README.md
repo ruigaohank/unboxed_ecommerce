@@ -116,7 +116,7 @@ The following recommendations are based on the above insights and relate to diff
 ---
 ## Presentation Sample
 
-The presentation created for the company-wide townhall walks through some of the insights and recommendations above and can be found [here](https://github.com/ruiruigaoh/unboxed_ecommerce/tree/main/screenshots). Some samples are presented below for easy viewing.
+The presentation created for the company-wide townhall walks through some of the insights and recommendations above and can be found [here](https://github.com/ruiruigaoh/unboxed_ecommerce/blob/main/unboxed_presentation.pdf). Some samples are presented below for easy viewing.
 
 <p align="center" width="100%">
   <img src="screenshots/pres_north_star_metrics.png"><br>
